@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NumConverter</string>
+    <string name="spsoa">Střední průmyslová škola Bruntál</string>
+    <string name="fname">First name</string>
+    <string name="sname">Second name</string>
+    <string name="trida">Class</string>
+    <string name="start">Start!</string>
+    <string name="hex">Hex</string>
+    <string name="dec">Dec</string>
+    <string name="bin">Bin</string>
+    <string name="finish">Finish</string>
+</resources>

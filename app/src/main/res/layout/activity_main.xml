@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/spsoa"
+        android:textAppearance="@style/myText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editSetFirstName"
+        style="@style/myTextBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="@string/fname"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorGreen"
+        android:textColorHighlight="@color/colorGreen"
+        android:textColorLink="@color/colorGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editSetSecondName"
+        style="@style/myTextBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/sname"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorGreen"
+        android:textColorHighlight="@color/colorGreen"
+        android:textColorLink="@color/colorGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSetFirstName" />
+
+    <EditText
+        android:id="@+id/editSetClass"
+        style="@style/myTextBig"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/trida"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorGreen"
+        android:textColorHighlight="@color/colorGreen"
+        android:textColorLink="@color/colorGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSetSecondName" />
+
+    <Button
+        android:id="@+id/buttonStartTest"
+        android:layout_width="236dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="monospace"
+        android:onClick="start"
+        android:text="@string/start"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSetClass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
